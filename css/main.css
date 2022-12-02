@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: #f0f2f5;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+.facebook-hero{
+    padding-top: 72px;
+}
+.logo {
+    height: 106px;
+}
+.facebook-hero_wrap{
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.facebook-title {
+    width: 500px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.facebook-hero_right{
+    width: 396px;
+}
+.facebook-hero_form_wrap{
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.input_wrapper{
+    padding: 0 15px;
+}
+input{
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+input:focus{
+    outline-color: #166fe5;
+    box-shadow: 0 0 3px 0 #166fe5;
+}
+.email-input{
+    padding: 6px 0;
+}
+.password-input{
+    padding: 6px 0;
+    margin-bottom: 6px;
+}
+.form-footer{
+    padding: 0 10px;
+}
+.btn{
+    margin-bottom: 16px;
+}
+.btn-submit{
+    width: 100%;
+    border: none;
+    padding: 0 16px;
+    line-height: 48px;
+    background-color: #166fe5;
+
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.btn-submit:hover{
+    background-color: #0f6ae1;
+}
+
+.link{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.h-line{
+    width: 100%;
+    margin: 20px 16px;
+    height: 1px;
+    background-color: #dadde1;
+}
+.btn-btn{
+    padding-top: 6px;
+}
+.btn-button{
+    border: none;
+    border-radius: 6px;
+    background-color: #36a420;
+    color: #fff;
+    line-height: 48px;
+    font-size: 17px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.btn-button:hover{
+    background-color: #2ba313;
+}
+
+.form-desc{
+    text-align-last: center;
+    font-size: 14px;
+}
+.form-desc_link{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1c1e21;
+}
+.form-desc_link:hover{
+    text-decoration: underline;
+}
